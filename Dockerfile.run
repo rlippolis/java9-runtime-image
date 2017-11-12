@@ -1,9 +1,0 @@
-FROM alpine:3.6
-
-MAINTAINER JDriven <info@jdriven.com>
-
-WORKDIR /app
-
-COPY /dist/ ./
-
-ENTRYPOINT ["bin/run"]
